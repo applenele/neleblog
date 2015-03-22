@@ -25,8 +25,8 @@ public class ArticleService implements IArticleService{
 
     @Override
     public void add(Articel articel) {
-       //mongoTemplate.save(articel,"article");
-        mongoTemplate.insert(articel,"articles");
+       mongoTemplate.save(articel,"articles");
+       // mongoTemplate.insert(articel,"articles");
     }
 
     @Override
