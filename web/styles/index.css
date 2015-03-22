@@ -2,13 +2,15 @@
     font-family: 'Microsoft YaHei';
     margin: 0px;
 }
-body{
+
+body {
 
 }
-.container{
+
+.container {
     width: 80%;
     margin: auto auto;
-    margin-top: 20px;
+    margin-top: 10px;
     min-height: 600px;
 }
 
@@ -24,40 +26,59 @@ body{
     min-height: 100%;
 }
 
-.top{
+.top {
     height: 100px;
-    background-image:url("/images/banner.jpg") ;
+    background-image: url("/images/banner.jpg");
 }
 
-.main{
+.main {
     width: 70%;
     float: left;
     min-height: 600px;
 }
-.article{
-    background-color: rgba(255,255,255,0.4);
-    box-shadow: 0 0 15px rgba(0,0,0,.2);
+
+.article {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
     padding: 20px 20px;
+    margin-top: 20px;
 }
 
-.right{
+.right {
     float: right;
     min-height: 600px;
-    width: 20%;
-}
-.side{
-    background-color: rgba(255,255,255,0.4);
-    box-shadow: 0 0 15px rgba(0,0,0,.2);
-    padding:10px 10px;
+    width: 23%;
 }
 
-footer{
+.side {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    padding: 10px 10px;
+    margin: 20px;
+}
+
+footer {
     clear: both;
 }
 
-
-.login-box{
+.login-box {
     width: 300px;
     margin: 200px auto;
     height: auto;
+}
+
+.login-box .inline input {
+    height: 30px;
+    width: 200px;
+    margin-right:0px;
+    margin-left: 10px;
+}
+
+.login-box .inline {
+    margin: 5px;
+}
+
+#btnLogin {
+    height: 50px;
+    width: 70px;
 }

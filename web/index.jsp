@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>neleblog - index</title>
+    <script src="scripts/jquery-1.11.2.min.js"></script>
     <script src="scripts/index.js"></script>
     <link rel="stylesheet" href="styles/index.css"/>
 </head>
@@ -21,10 +22,6 @@
 </div>
 <div class="container">
     <div class="main">
-        <div class="article">
-            <h3>test</h3>
-            <div>asdasd</div>
-        </div>
     </div>
     <div class="right">
         <div class="side">
@@ -33,7 +30,9 @@
             <div>日常</div>
         </div>
        <c:if test="${user=='admin'}" >
-           <div><a href="addArticel.jsp">发表文章</a></div>
+           <div class="side">
+               <div><a href="addArticel.jsp">发表文章</a></div>
+           </div>
        </c:if>
     </div>
 </div>

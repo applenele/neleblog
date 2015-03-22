@@ -17,7 +17,7 @@ $(document).ready(function () {
             return ;
         }
 
-        $.post("/artcile/add",{"title":title,"content":content,"category":category},function(data){
+        $.post("/article/add",{"title":title,"content":content,"category":category},function(data){
             if(data=="ok"){
                 window.location.href="index.jsp";
             }else{

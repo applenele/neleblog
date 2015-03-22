@@ -1,6 +1,6 @@
 package com.nele.neleblog.service;
 
-import com.nele.neleblog.model.Articel;
+import com.nele.neleblog.model.Article;
 
 import java.util.List;
 
@@ -8,11 +8,13 @@ import java.util.List;
  * Created by apple on 15/3/21.
  */
 public interface IArticleService {
-     List<Articel> getAll();
+    List<Article> getAll();
 
-     void add(Articel articel);
+    void add(Article article);
 
-     void delete(String id);
+    void delete(String id);
 
-     void update(Articel articel);
+    void update(Article article);
+
+    List<Article> getArticlesByPage(int page);
 }

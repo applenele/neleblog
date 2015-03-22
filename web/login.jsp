@@ -9,16 +9,17 @@
 <html>
 <head>
     <title>neleblog - login</title>
-    <script src="/scripts/jquery-1.11.2.min.js" ></script>
+    <script src="/scripts/jquery-1.11.2.min.js"></script>
     <script src="/scripts/login.js"></script>
-    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/index.css"/>
 </head>
 <body>
-    <img src="/images/background2.jpg" class="bg-image">
-    <div class="login-box">
-        用户名:<input type="text" id="username" placeholder="用户名" /> <br />
-        密码:<input type="password" id="password" placeholder="密码" /> <br >
-        <input type="button" value="登陆" id="btnLogin" />
-    </div>
+<img src="/images/background2.jpg" class="bg-image">
+
+<div class="login-box">
+    <div class="inline">用户:<input type="text" id="username" placeholder="用户名"/></div>
+    <div class="inline">密码:<input type="password" id="password" placeholder="密码"/></div>
+    <input type="button" height="30px" value="登陆" id="btnLogin"/>
+</div>
 </body>
 </html>

@@ -8,8 +8,8 @@ import java.util.List;
 /**
  * Created by apple on 15/3/21.
  */
-@Document(collection = "article")
-public class Articel {
+@Document(collection = "articles")
+public class Article {
 
     private String id;
 
@@ -17,16 +17,16 @@ public class Articel {
 
     private String content;
 
-    private LocalDateTime ptime;
+    private String ptime;
 
     private String category;
 
     private List<Reply> replies;
 
-    public Articel() {
+    public Article() {
     }
 
-    public Articel(String category, String content, String id, LocalDateTime ptime, String title) {
+    public Article(String category, String content, String id, String ptime, String title) {
         this.category = category;
         this.content = content;
         this.id = id;
@@ -69,11 +69,11 @@ public class Articel {
         this.id = id;
     }
 
-    public LocalDateTime getPtime() {
+    public String getPtime() {
         return ptime;
     }
 
-    public void setPtime(LocalDateTime ptime) {
+    public void setPtime(String ptime) {
         this.ptime = ptime;
     }
 

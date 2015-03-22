@@ -1,6 +1,6 @@
 package com.nele.neleblog.service.impl;
 
-import com.nele.neleblog.model.Articel;
+import com.nele.neleblog.model.Article;
 import com.nele.neleblog.service.IArticleService;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -9,9 +9,9 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
-import static org.springframework.data.mongodb.core.query.Criteria.where;
 import static org.springframework.data.mongodb.core.query.Query.query;
 
 /**
@@ -24,29 +24,38 @@ public class ArticleService implements IArticleService{
     private MongoTemplate mongoTemplate;
 
     @Override
-    public void add(Articel articel) {
-       mongoTemplate.save(articel,"articles");
+    public void add(Article article) {
+       mongoTemplate.save(article,"articles");
        // mongoTemplate.insert(articel,"articles");
     }
 
     @Override
-    public List<Articel> getAll() {
-        List<Articel> list= mongoTemplate.findAll(Articel.class, "articles");
+    public List<Article> getAll() {
+        List<Article> list= mongoTemplate.findAll(Article.class,"articles");
         return list;
     }
 
     @Override
     public void delete(String id) {
-        mongoTemplate.remove(query(Criteria.where("id").is(id)), Articel.class, "articles");
+        mongoTemplate.remove(query(Criteria.where("id").is(id)), Article.class, "articles");
     }
 
     @Override
-    public void update(Articel articel) {
-        Query query =new Query(Criteria.where("id").is(articel.getId()));
+    public void update(Article article) {
+        Query query =new Query(Criteria.where("id").is(article.getId()));
 
-        Update update= new Update().set("title",articel.getTitle()).set("content",articel.getContent())
-                .set("category", articel.getCategory());
+        Update update= new Update().set("title", article.getTitle()).set("content", article.getContent())
+                .set("category", article.getCategory());
 
-        mongoTemplate.findAndModify(query,update,Articel.class,"articles");
+        mongoTemplate.findAndModify(query,update,Article.class,"articles");
+    }
+
+
+    @Override
+    public List<Article> getArticlesByPage(int page) {
+        List<Article> articles =new ArrayList<Article>();
+        articles = getAll();
+        articles.stream().skip(page*10).limit(page);
+        return articles;
     }
 }
