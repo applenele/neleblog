@@ -17,10 +17,9 @@
 </head>
 <body>
 <div class="top">
-    <div class="logo"><h3>NeleBlog</h3></div>
     <div class="nav">
         <ul class="nav_list">
-            <li><a href="/"><span>Life</span><br/><span class="zh">生活</span></a></li>
+            <li><a href="/"><span>Daily</span><br/><span class="zh">生活</span></a></li>
             <li><a href="/"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
             <li><a href="/"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
             <li><a href="/"><span>Message</span><br/><span class="zh">留言板</span></a></li>

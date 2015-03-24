@@ -5,6 +5,7 @@ import com.nele.neleblog.model.Article;
 import com.nele.neleblog.model.Reply;
 import com.nele.neleblog.model.Tag;
 import com.nele.neleblog.service.impl.ArticleService;
+import com.nele.neleblog.util.StringHelper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -56,6 +57,9 @@ public class ArticleController {
     public String getArticles(@RequestParam int page){
         List<Article> articles =new ArrayList<Article>();
         articles = articleService.getArticlesByPage(page);
+        for(Article article : articles){
+            article.setContent(StringHelper.getSomeConent(article.getContent()));
+        }
         Gson gson=new Gson();
         String json =gson.toJson(articles);
         return json;

@@ -6,15 +6,11 @@
 .top{
     width: 80%;
     height: 80px;
-    margin: 0px 300px;
-}
-.logo{
-    float: left;
-    margin-top: 30px;
+    margin: 0px 10%;
 }
 .nav{
-    float: left;
-    margin-top: 30px;
+    float: right;
+    padding-top: 30px;
 }
 .nav .nav_list li{
     list-style: none;
