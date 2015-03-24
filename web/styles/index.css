@@ -1,84 +1,139 @@
 * {
-    font-family: 'Microsoft YaHei';
+    font-family: "Microsoft YaHei";
     margin: 0px;
 }
 
-body {
-
-}
-
-.container {
+.top{
     width: 80%;
-    margin: auto auto;
-    margin-top: 10px;
-    min-height: 600px;
+    height: 80px;
+    margin: 0px 300px;
+}
+.logo{
+    float: left;
+    margin-top: 30px;
+}
+.nav{
+    float: left;
+    margin-top: 30px;
+}
+.nav .nav_list li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+.nav .nav_list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
 }
 
-.bg-image {
-    position: fixed;
-    top: 0;
-    bottom: -30%;
-    left: 0;
-    z-index: -100;
-    width: 100%;
-    height: auto;
-    min-width: 1024px;
-    min-height: 100%;
+.banner{
+    background: url('../images/banner_top.jpg') top center;
+    height: 256px;
+    overflow: hidden;
 }
 
-.top {
-    height: 100px;
-    background-image: url("/images/banner.jpg");
+.zh{
+    display: none;
+    font-size: 15px;
+    color: #848484;
 }
 
-.main {
-    width: 70%;
+.container{
+    width: 80%;
+    margin:6px 10%;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.container .title_tj{
+    font: 18px "微软雅黑",Arial,Helvetica,sans-serif;
+    color: #444;
+    font-weight: bold;
+    background: url(../images/h_line.jpg) repeat-x 20px center;
+}
+.container .title_tj p{
+    width: 90px;
+    background: #fff;
+}
+
+.container .main{
+    width: 75%;
     float: left;
     min-height: 600px;
 }
 
-.article {
+.container .main .article {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 15px rgba(0, 0, 0, .2);
     padding: 20px 20px;
     margin-top: 20px;
 }
 
-.right {
+.container .right{
     float: right;
+    width: 18%;
     min-height: 600px;
-    width: 23%;
 }
 
-.side {
+.container .right .side{
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 15px rgba(0, 0, 0, .2);
     padding: 10px 10px;
-    margin: 20px;
+    margin-top: 20px;
+    text-align: left;
+
 }
 
-footer {
+.container .right .side .catalogs_list p{
+    margin:10px 10px;
+}
+.article_content{
+    margin-top: 5px;
+}
+
+.artcile_more{
+    margin-top:5px;
+}
+
+.article_tags{
+    margin-top:10px;
+}
+
+.article_tags .article_tag{
+    background-color: #13ace1;
+    color: #fff;
+    width: auto;
+}
+
+.article_footer .ptime{
+    margin-top: 8px;
+}
+
+.footer{
     clear: both;
-}
-
-.login-box {
-    width: 300px;
-    margin: 200px auto;
-    height: auto;
-}
-
-.login-box .inline input {
-    height: 30px;
-    width: 200px;
-    margin-right:0px;
-    margin-left: 10px;
-}
-
-.login-box .inline {
-    margin: 5px;
-}
-
-#btnLogin {
     height: 50px;
-    width: 70px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,6 +3,7 @@ package com.nele.neleblog.controller;
 import com.google.gson.Gson;
 import com.nele.neleblog.model.Article;
 import com.nele.neleblog.model.Reply;
+import com.nele.neleblog.model.Tag;
 import com.nele.neleblog.service.impl.ArticleService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +29,14 @@ public class ArticleController {
 
     @RequestMapping("/add")
     @ResponseBody
-    public String add(String title,String content,String category){
+    public String add(String title,String content,String category,String tags){
+        String[] tagsArray=tags.split(",");
+        List<Tag> tagList =new ArrayList<Tag>();
+        for (String stag: tagsArray){
+            Tag tag=new Tag();
+            tag.setContent(stag);
+            tagList.add(tag);
+        }
         Article article =new Article();
         UUID uuid =UUID.randomUUID();
         article.setId(uuid.toString());
@@ -36,6 +45,7 @@ public class ArticleController {
         article.setCategory(category);
         article.setPtime(LocalDateTime.now().toString());
         article.setReplies(new ArrayList<Reply>());
+        article.setTags(tagList);
         articleService.add(article);
         return  "ok";
     }

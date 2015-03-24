@@ -23,6 +23,8 @@ public class Article {
 
     private List<Reply> replies;
 
+    private List<Tag> tags;
+
     public Article() {
     }
 
@@ -91,5 +93,13 @@ public class Article {
 
     public void setReplies(List<Reply> replies) {
         this.replies = replies;
+    }
+
+    public List<Tag> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tag> tags) {
+        this.tags = tags;
     }
 }

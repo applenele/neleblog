@@ -4,6 +4,7 @@ $(document).ready(function () {
         var title=$("#title").val();
         var content=$("#content").val();
         var category=$("#category").val();
+        var tags=$("#tahs").val();
         if(title==""){
             alert("标题不能为空！");
             return ;
@@ -17,7 +18,7 @@ $(document).ready(function () {
             return ;
         }
 
-        $.post("/article/add",{"title":title,"content":content,"category":category},function(data){
+        $.post("/article/add",{"title":title,"content":content,"category":category,"tags":tags},function(data){
             if(data=="ok"){
                 window.location.href="index.jsp";
             }else{

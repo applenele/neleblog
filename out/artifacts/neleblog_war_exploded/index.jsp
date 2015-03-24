@@ -11,31 +11,57 @@
 <head>
     <title>neleblog - index</title>
     <script src="scripts/jquery-1.11.2.min.js"></script>
+    <script src="scripts/moment.js"></script>
     <script src="scripts/index.js"></script>
     <link rel="stylesheet" href="styles/index.css"/>
 </head>
 <body>
-<img src="/images/background2.jpg" class="bg-image">
-
 <div class="top">
-    asd
+    <div class="logo"><h3>NeleBlog</h3></div>
+    <div class="nav">
+        <ul class="nav_list">
+            <li><a href="/"><span>Life</span><br/><span class="zh">生活</span></a></li>
+            <li><a href="/"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
+            <li><a href="/"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
+            <li><a href="/"><span>Message</span><br/><span class="zh">留言板</span></a></li>
+            <li><a href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
+        </ul>
+    </div>
+</div>
+<div class="banner">
 </div>
 <div class="container">
+    <h2 class="title_tj"><p>文章推荐</p></h2>
     <div class="main">
     </div>
     <div class="right">
         <div class="side">
-            <div>日常</div>
-            <div>日常</div>
-            <div>日常</div>
+            <h3>CATALOGS</h3>
+
+            <div class="catalogs_list">
+                <p>Life</p>
+
+                <p>FrontEnd</p>
+
+                <p>BackEnd</p>
+            </div>
         </div>
-       <c:if test="${user=='admin'}" >
-           <div><a href="addArticel.jsp">发表文章</a></div>
-       </c:if>
+
+        <div class="side">
+            <h3>CALENDAR</h3>
+
+            <div class="catalogs_list">
+                <p>2015年3月</p>
+
+                <p>2015年3月</p>
+            </div>
+        </div>
+
     </div>
 </div>
 <div class="footer">
-    <div><a href="login.jsp">登陆</a></div>
+    <div>Copyright © 2015 nele
+    </div>
 </div>
 </body>
 </html>
