@@ -15,6 +15,7 @@
     <title>neleblog - index</title>
     <script src="<%=path%>/scripts/jquery-1.11.2.min.js"></script>
     <script src="<%=path%>/scripts/moment.js"></script>
+    <script src="<%=path%>/scripts/side.js"></script>
     <link rel="stylesheet" href="<%=path%>/styles/index.css"/>
 </head>
 <body>
@@ -52,19 +53,15 @@
             <h3>CATALOGS</h3>
 
             <div class="catalogs_list">
-                <c:forEach var="item" items="${mcategory}">
-                    <p><c:out value="${item.key}"></c:out>(<c:out value="${item.value}"></c:out>)</p>
-                </c:forEach>
+
             </div>
         </div>
 
         <div class="side">
             <h3>CALENDAR</h3>
 
-            <div class="catalogs_list">
-                <c:forEach var="item" items="${mtime}">
-                    <p><c:out value="${item.key}"></c:out>(<c:out value="${item.value}"></c:out>)</p>
-                </c:forEach>
+            <div class="calendar_list">
+
             </div>
         </div>
 

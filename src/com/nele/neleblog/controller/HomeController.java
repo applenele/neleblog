@@ -22,38 +22,7 @@ public class HomeController {
 
     @RequestMapping("/index")
     public String index(Map<String,Object> model) {
-        List<Article> articles = articleService.getAll();
-        Map<String,Integer> mtime=new HashMap<String, Integer>();
-        Map<String,Integer> mcategory =new HashMap<String, Integer>();
-        List<String> stime=new ArrayList<String>();
-        List<String> scategory=new ArrayList<String>();
-        for(Article article : articles){
-            stime.add(article.getPtime());
-            scategory.add(article.getCategory());
-        }
-        for (String time :stime){
-            LocalDateTime local=LocalDateTime.parse(time);
-            int year =local.getYear();
-            int month=local.getMonthValue();
-            String data= year+"年" +month+"月";
-            if(mtime.containsKey(data)){
-               Integer val= mtime.get(data);
-               mtime.put(data,(int)val+1);
-            }else{
-                mtime.put(data,1);
-            }
-        }
-        for(String category : scategory){
-             if(mcategory.containsKey(category)){
-                 Integer val=mcategory.get(category);
-                 mcategory.put(category,(int)val+1);
-             }else{
-                 mcategory.put(category,1);
-             }
-        }
 
-        model.put("mtime",mtime);
-        model.put("mcategory",mcategory);
         return "index";
     }
 }

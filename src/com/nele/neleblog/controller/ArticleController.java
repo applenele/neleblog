@@ -15,9 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 /**
  * Created by apple on 15/3/22.
@@ -66,7 +64,7 @@ public class ArticleController {
         return json;
     }
 
-
+    //页面展示 获取文章 然后展示
     @RequestMapping("/show")
     public String show(@RequestParam String id,Model model) {
         Article article = new Article();
@@ -75,4 +73,64 @@ public class ArticleController {
         return "showArticle";
     }
 
+    //获取归档的时间 直接返回html
+    @RequestMapping("/getPTime")
+    @ResponseBody
+    public String getPTime(){
+        StringBuilder shtml=new StringBuilder();
+
+        List<Article> articles = articleService.getAll();
+        Map<String,Integer> mtime=new HashMap<String, Integer>();
+        Map<String,Integer> mcategory =new HashMap<String, Integer>();
+        List<String> stime=new ArrayList<String>();
+        for(Article article : articles){
+            stime.add(article.getPtime());
+        }
+        for (String time :stime){
+            LocalDateTime local=LocalDateTime.parse(time);
+            int year =local.getYear();
+            int month=local.getMonthValue();
+            String data= year+"年" +month+"月";
+            if(mtime.containsKey(data)){
+                Integer val= mtime.get(data);
+                mtime.put(data,(int)val+1);
+            }else{
+                mtime.put(data,1);
+            }
+        }
+
+        for(String time :mtime.keySet()){
+            shtml.append("<p>").append(time).append("(").append(mtime.get(time)).append(")</p>");
+        }
+        return shtml.toString();
+    }
+
+
+    @RequestMapping("/getPCategory")
+    @ResponseBody
+    public String getPCategory(){
+        StringBuilder shtml=new StringBuilder();
+
+        List<Article> articles = articleService.getAll();
+        Map<String,Integer> mcategory =new HashMap<String, Integer>();
+        List<String> scategory=new ArrayList<String>();
+
+        for(Article article : articles){
+            scategory.add(article.getCategory());
+        }
+
+        for(String category : scategory){
+            if(mcategory.containsKey(category)){
+                Integer val=mcategory.get(category);
+                mcategory.put(category,(int)val+1);
+            }else{
+                mcategory.put(category,1);
+            }
+        }
+
+        for(String category :mcategory.keySet()){
+            shtml.append("<p>").append(category).append("(").append(mcategory.get(category)).append(")</p>");
+        }
+        return shtml.toString();
+    }
 }

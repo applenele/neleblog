@@ -90,6 +90,10 @@ h2 {
 .container .right .side .catalogs_list p{
     margin:10px 10px;
 }
+
+.container .right .side .calendar_list p{
+    margin:10px 10px;
+}
 .article_content{
     margin-top: 5px;
 }
