@@ -7,6 +7,7 @@ import com.nele.neleblog.model.Tag;
 import com.nele.neleblog.service.impl.ArticleService;
 import com.nele.neleblog.util.StringHelper;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -30,16 +31,16 @@ public class ArticleController {
 
     @RequestMapping("/add")
     @ResponseBody
-    public String add(String title,String content,String category,String tags){
-        String[] tagsArray=tags.split(",");
-        List<Tag> tagList =new ArrayList<Tag>();
-        for (String stag: tagsArray){
-            Tag tag=new Tag();
+    public String add(String title, String content, String category, String tags) {
+        String[] tagsArray = tags.split(",");
+        List<Tag> tagList = new ArrayList<Tag>();
+        for (String stag : tagsArray) {
+            Tag tag = new Tag();
             tag.setContent(stag);
             tagList.add(tag);
         }
-        Article article =new Article();
-        UUID uuid =UUID.randomUUID();
+        Article article = new Article();
+        UUID uuid = UUID.randomUUID();
         article.setId(uuid.toString());
         article.setTitle(title);
         article.setContent(content);
@@ -48,22 +49,30 @@ public class ArticleController {
         article.setReplies(new ArrayList<Reply>());
         article.setTags(tagList);
         articleService.add(article);
-        return  "ok";
+        return "ok";
     }
 
 
     @RequestMapping("/getArticles")
     @ResponseBody
-    public String getArticles(@RequestParam int page){
-        List<Article> articles =new ArrayList<Article>();
+    public String getArticles(@RequestParam int page) {
+        List<Article> articles = new ArrayList<Article>();
         articles = articleService.getArticlesByPage(page);
-        for(Article article : articles){
+        for (Article article : articles) {
             article.setContent(StringHelper.getSomeConent(article.getContent()));
         }
-        Gson gson=new Gson();
-        String json =gson.toJson(articles);
+        Gson gson = new Gson();
+        String json = gson.toJson(articles);
         return json;
     }
 
+
+    @RequestMapping("/show")
+    public String show(@RequestParam String id,Model model) {
+        Article article = new Article();
+        article = articleService.getArticleById(id);
+        model.addAttribute("article",article);
+        return "showArticle";
+    }
 
 }

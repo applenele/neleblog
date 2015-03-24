@@ -43,7 +43,6 @@ public class ArticleService implements IArticleService{
     @Override
     public void update(Article article) {
         Query query =new Query(Criteria.where("id").is(article.getId()));
-
         Update update= new Update().set("title", article.getTitle()).set("content", article.getContent())
                 .set("category", article.getCategory());
 
@@ -57,5 +56,12 @@ public class ArticleService implements IArticleService{
         articles = getAll();
         articles.stream().skip(page*10).limit(page);
         return articles;
+    }
+
+    @Override
+    public Article getArticleById(String id) {
+        Article article =new Article();
+        article =mongoTemplate.findById(id,Article.class);
+        return article;
     }
 }
