@@ -39,21 +39,18 @@
             <h3>CATALOGS</h3>
 
             <div class="catalogs_list">
-                <p>Life</p>
-
-                <p>FrontEnd</p>
-
-                <p>BackEnd</p>
+                <c:forEach var="item" items="${mcategory}">
+                    <p><c:out value="${item.key}"></c:out>(<c:out value="${item.value}"></c:out>)</p>
+                </c:forEach>
             </div>
         </div>
 
         <div class="side">
             <h3>CALENDAR</h3>
-
             <div class="catalogs_list">
-                <p>2015年3月</p>
-
-                <p>2015年3月</p>
+                <c:forEach var="item" items="${mtime}">
+                    <p><c:out value="${item.key}"></c:out>(<c:out value="${item.value}"></c:out>)</p>
+                </c:forEach>
             </div>
         </div>
 

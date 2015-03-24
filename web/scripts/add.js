@@ -4,7 +4,7 @@ $(document).ready(function () {
         var title=$("#title").val();
         var content=$("#content").val();
         var category=$("#category").val();
-        var tags=$("#tahs").val();
+        var tags=$("#tags").val();
         if(title==""){
             alert("标题不能为空！");
             return ;

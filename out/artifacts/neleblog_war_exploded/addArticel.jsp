@@ -33,6 +33,9 @@
             </select>
         </div>
         <div>
+            标签：<input type="text"  id="tags" />
+        </div>
+        <div>
             <input type="button" id="btnAddArticle" value="增加"/>
         </div>
     </div>
