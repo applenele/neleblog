@@ -9,9 +9,14 @@ $(document).ready(function () {
     $.ajax({
         url: "/article/getPTime",
         method: "post",
+        dataType: "json",
         contentType: "application/x-www-form-urlencoded; charset=utf-8",
         success: function (data) {
-            $(".calendar_list").html(data);
+           var str="";
+           for(var key in data){
+               str=str+"<p>"+key+"("+data[key]+")</p>"
+           }
+            $(".calendar_list").html(str);
         },
         error: function (data) {
             alert("获取归档时间出错！");
@@ -22,9 +27,14 @@ $(document).ready(function () {
     $.ajax({
         url: "/article/getPCategory",
         method: "post",
+        dataType: "json",
         contentType: "application/x-www-form-urlencoded; charset=utf-8",
         success: function (data) {
-            $(".catalogs_list").html(data);
+            var str="";
+            for(var key in data){
+                str=str+"<p>"+key+"("+data[key]+")</p>"
+            }
+            $(".catalogs_list").html(str);
         },
         error: function (data) {
             alert("获取分类出错！");

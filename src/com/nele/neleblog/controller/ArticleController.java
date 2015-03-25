@@ -77,8 +77,6 @@ public class ArticleController {
     @RequestMapping("/getPTime")
     @ResponseBody
     public String getPTime(){
-        StringBuilder shtml=new StringBuilder();
-
         List<Article> articles = articleService.getAll();
         Map<String,Integer> mtime=new HashMap<String, Integer>();
         Map<String,Integer> mcategory =new HashMap<String, Integer>();
@@ -98,19 +96,15 @@ public class ArticleController {
                 mtime.put(data,1);
             }
         }
-
-        for(String time :mtime.keySet()){
-            shtml.append("<p>").append(time).append("(").append(mtime.get(time)).append(")</p>");
-        }
-        return shtml.toString();
+        Gson gson=new Gson();
+        String str=gson.toJson(mtime);
+        return str;
     }
 
 
     @RequestMapping("/getPCategory")
     @ResponseBody
     public String getPCategory(){
-        StringBuilder shtml=new StringBuilder();
-
         List<Article> articles = articleService.getAll();
         Map<String,Integer> mcategory =new HashMap<String, Integer>();
         List<String> scategory=new ArrayList<String>();
@@ -128,9 +122,9 @@ public class ArticleController {
             }
         }
 
-        for(String category :mcategory.keySet()){
-            shtml.append("<p>").append(category).append("(").append(mcategory.get(category)).append(")</p>");
-        }
-        return shtml.toString();
+        Gson gson=new Gson();
+        String str=gson.toJson(mcategory);
+
+        return str;
     }
 }
