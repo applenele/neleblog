@@ -48,6 +48,7 @@ h2 {
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
+
 .container .title_tj{
     font: 18px "微软雅黑",Arial,Helvetica,sans-serif;
     color: #444;
@@ -117,13 +118,15 @@ h2 {
 }
 
 .footer{
-    clear: both;
     height: 50px;
     background: #333;
     color: #fff;
     text-align: center;
     line-height: 50px;
+    margin-top: 50px;
 }
+
+
 
 
 

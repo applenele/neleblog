@@ -64,8 +64,8 @@
 
             </div>
         </div>
-
     </div>
+    <div style="clear:both"></div>
 </div>
 <div class="footer">
     <div>Copyright © 2015 nele

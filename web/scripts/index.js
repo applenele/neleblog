@@ -32,7 +32,7 @@ $(document).ready(function(){
                 }
                 str=str+"<div class='article'><h3>"+data[i].title+"</h3><div class='article_content'>"+data[i].content+"</div>" +
                 "<div class='article_footer'><div class='artcile_more'><a href='/article/show?id="+data[i].id+"' >Read More</a></div> <div class='ptime'>Publish On "+(moment(data[i].ptime).format("YYYY-MM-DD HH:mm:ss"))+"</div>" +
-                " <div class='article_tags'>"+stag+"</div></div></div>";
+                " <div class='article_tags'>"+stag+"</div></div></div></div>";
             }
             $(".main").append(str);
         },

@@ -31,26 +31,23 @@
 <div class="banner">
 </div>
 <div class="container">
-    <h2 class="title_tj"><p>文章推荐</p></h2>
     <div class="main">
+
     </div>
     <div class="right">
         <div class="side">
             <h3>CATALOGS</h3>
-
             <div class="catalogs_list">
-
             </div>
         </div>
 
         <div class="side">
             <h3>CALENDAR</h3>
             <div class="calendar_list">
-
             </div>
         </div>
-
     </div>
+    <div style="clear:both"></div>
 </div>
 <div class="footer">
     <div>Copyright © 2015 nele
