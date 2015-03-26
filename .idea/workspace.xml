@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a361128b-528c-4dc5-833e-f6998dadc29a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/service/Test01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/WEB-INF/classes/com/nele/neleblog/service/impl/ArticleService.class" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/WEB-INF/classes/com/nele/neleblog/service/impl/ArticleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/neleblog/com/nele/neleblog/service/impl/ArticleService.class" afterPath="$PROJECT_DIR$/out/production/neleblog/com/nele/neleblog/service/impl/ArticleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nele/neleblog/service/IArticleService.java" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/service/IArticleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/addArticel.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/addArticel.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/addArticel.jsp" afterPath="$PROJECT_DIR$/web/addArticel.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/styles/index.css" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/styles/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/styles/index.css" afterPath="$PROJECT_DIR$/web/styles/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/index.js" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripts/index.js" afterPath="$PROJECT_DIR$/web/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/side.js" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/side.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripts/side.js" afterPath="$PROJECT_DIR$/web/scripts/side.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a361128b-528c-4dc5-833e-f6998dadc29a" name="Default" comment="" />
     <ignored path="nelebolg.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -870,16 +850,16 @@
       <workItem from="1427260824856" duration="3231000" />
       <workItem from="1427291074969" duration="2065000" />
       <workItem from="1427327727155" duration="3556000" />
-      <workItem from="1427338478147" duration="6424000" />
+      <workItem from="1427338478147" duration="6543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68032000" />
+    <option name="totallyTimeSpent" value="68151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -894,7 +874,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25674093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25674093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
