@@ -53,10 +53,10 @@ public class ArticleController {
     @RequestMapping("/getArticles")
     @ResponseBody
     public String getArticles(@RequestParam int page) {
-        List<Object> articles = new ArrayList<Object>();
+        List<Article> articles = new ArrayList<Article>();
         articles = articleService.getArticlesByPage(page);
-        for (Object article : articles) {
-            ((Article)article).setContent(StringHelper.getSomeConent(((Article)article).getContent()));
+        for (Article article : articles) {
+            article.setContent(StringHelper.getSomeConent(article.getContent()));
         }
         Gson gson = new Gson();
         String json = gson.toJson(articles);

@@ -52,11 +52,11 @@ public class ArticleService implements IArticleService{
 
 
     @Override
-    public List<Object> getArticlesByPage(int page) {
+    public List<Article> getArticlesByPage(int page) {
         List<Article> articles =new ArrayList<Article>();
         articles = getAll();
-        List<Object> list= articles.stream().skip(page*3).limit(3).collect(Collectors.toList());
-        return list;
+        articles= articles.stream().skip(page*6).limit(6).collect(Collectors.toList());
+        return articles;
     }
 
     @Override
