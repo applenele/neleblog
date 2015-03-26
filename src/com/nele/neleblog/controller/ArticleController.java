@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.*;
 
@@ -54,10 +53,10 @@ public class ArticleController {
     @RequestMapping("/getArticles")
     @ResponseBody
     public String getArticles(@RequestParam int page) {
-        List<Article> articles = new ArrayList<Article>();
+        List<Object> articles = new ArrayList<Object>();
         articles = articleService.getArticlesByPage(page);
-        for (Article article : articles) {
-            article.setContent(StringHelper.getSomeConent(article.getContent()));
+        for (Object article : articles) {
+            ((Article)article).setContent(StringHelper.getSomeConent(((Article)article).getContent()));
         }
         Gson gson = new Gson();
         String json = gson.toJson(articles);

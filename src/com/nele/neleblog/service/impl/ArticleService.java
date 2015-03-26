@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.springframework.data.mongodb.core.query.Query.query;
 
@@ -31,7 +32,7 @@ public class ArticleService implements IArticleService{
 
     @Override
     public List<Article> getAll() {
-        List<Article> list= mongoTemplate.findAll(Article.class,"articles");
+        List<Article> list= mongoTemplate.findAll(Article.class, "articles");
         return list;
     }
 
@@ -51,11 +52,11 @@ public class ArticleService implements IArticleService{
 
 
     @Override
-    public List<Article> getArticlesByPage(int page) {
+    public List<Object> getArticlesByPage(int page) {
         List<Article> articles =new ArrayList<Article>();
         articles = getAll();
-        articles.stream().skip(page*10).limit(page);
-        return articles;
+        List<Object> list= articles.stream().skip(page*3).limit(3).collect(Collectors.toList());
+        return list;
     }
 
     @Override
