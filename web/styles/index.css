@@ -155,4 +155,17 @@ h2 {
 
 
 
+.message_list .message{
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    padding: 20px;
+}
+
+.message_list .message .message_content{
+    margin-top: 10px;
+}
+.message_list .message .message_mtime{
+    margin-top: 10px;
+}
+
 

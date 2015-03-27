@@ -9,7 +9,7 @@ import java.util.List;
  */
 public interface IMessageService {
 
-    List<Message>  getByPage();
+    List<Message>  getByPage(int page);
 
     void add(Message message);
 
