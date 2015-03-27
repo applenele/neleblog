@@ -59,10 +59,19 @@ public class Test01 {
 
 
 
-        List<User> so = users.stream().limit(2).collect(Collectors.toList());
+        List<User> so = users.stream().filter(u->u.getUserName()=="admin").limit(2).collect(Collectors.toList());
 
         for (User s : so){
             System.out.println(s);
         }
+
+        /*String time ="2015年3月";
+
+        int year =Integer.parseInt(time.substring(0, 4));
+        int month=Integer.parseInt(time.substring(5,6));
+
+        System.out.println(year);
+        System.out.println(month);*/
+
     }
 }

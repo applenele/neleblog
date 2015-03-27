@@ -12,8 +12,8 @@
     <title>neleblog - index</title>
     <script src="scripts/jquery-1.11.2.min.js"></script>
     <script src="scripts/moment.js"></script>
-    <script src="scripts/index.js"></script>
     <script src="scripts/side.js"></script>
+    <script src="scripts/index.js"></script>
     <link rel="stylesheet" href="styles/index.css"/>
 </head>
 <body>

@@ -19,20 +19,20 @@ import static org.springframework.data.mongodb.core.query.Query.query;
  * Created by apple on 15/3/21.
  */
 @Service("articleService")
-public class ArticleService implements IArticleService{
+public class ArticleService implements IArticleService {
 
     @Resource
     private MongoTemplate mongoTemplate;
 
     @Override
     public void add(Article article) {
-       mongoTemplate.save(article,"articles");
-       // mongoTemplate.insert(articel,"articles");
+        mongoTemplate.save(article, "articles");
+        // mongoTemplate.insert(articel,"articles");
     }
 
     @Override
     public List<Article> getAll() {
-        List<Article> list= mongoTemplate.findAll(Article.class, "articles");
+        List<Article> list = mongoTemplate.findAll(Article.class, "articles");
         return list;
     }
 
@@ -43,26 +43,36 @@ public class ArticleService implements IArticleService{
 
     @Override
     public void update(Article article) {
-        Query query =new Query(Criteria.where("id").is(article.getId()));
-        Update update= new Update().set("title", article.getTitle()).set("content", article.getContent())
+        Query query = new Query(Criteria.where("id").is(article.getId()));
+        Update update = new Update().set("title", article.getTitle()).set("content", article.getContent())
                 .set("category", article.getCategory());
 
-        mongoTemplate.findAndModify(query,update,Article.class,"articles");
+        mongoTemplate.findAndModify(query, update, Article.class, "articles");
     }
 
 
     @Override
-    public List<Article> getArticlesByPage(int page) {
-        List<Article> articles =new ArrayList<Article>();
+    public List<Article> getArticlesByPage(int page, String time, String category) {
+
+        List<Article> articles = new ArrayList<Article>();
         articles = getAll();
-        articles= articles.stream().skip(page*6).limit(6).collect(Collectors.toList());
+        if (!time.equals(null) && !"".equals(time)) {
+            String year = time.substring(0, 4);
+            String month = time.substring(5, 6);
+            String  stime = year + "-0" + month;
+            articles = articles.stream().filter(a->a.getPtime().contains(stime)).collect(Collectors.toList());
+        }
+        if(!category.equals(null) && ! "".equals(category)){
+            articles = articles.stream().filter(a -> a.getCategory().equals(category))
+                    .skip(page * 6).limit(6).collect(Collectors.toList());
+        }
         return articles;
     }
 
     @Override
     public Article getArticleById(String id) {
-        Article article =new Article();
-        article =mongoTemplate.findById(id,Article.class);
+        Article article = new Article();
+        article = mongoTemplate.findById(id, Article.class);
         return article;
     }
 }

@@ -14,7 +14,7 @@ $(document).ready(function () {
         success: function (data) {
            var str="";
            for(var key in data){
-               str=str+"<p>"+key+"("+data[key]+")</p>"
+               str=str+"<p><a href=javascript:LoadByTime('"+key+"')>"+key+"("+data[key]+")</a></p>"
            }
             $(".calendar_list").html(str);
         },
@@ -32,7 +32,7 @@ $(document).ready(function () {
         success: function (data) {
             var str="";
             for(var key in data){
-                str=str+"<p><a href='/article/getByPTime?'>"+key+"("+data[key]+")</a></p>"
+                str=str+"<p><a href=javascript:LoadByCategory('"+key+"')>"+key+"("+data[key]+")</a></p>"
             }
             $(".catalogs_list").html(str);
         },

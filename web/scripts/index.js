@@ -5,6 +5,9 @@
 var page =0;
 var lock=false;
 
+var time="";
+var category="";
+
 
 function LoadArticles(){
     if(lock){
@@ -16,7 +19,7 @@ function LoadArticles(){
             method: "post",
             dataType: "json",
             contentType: "application/x-www-form-urlencoded; charset=utf-8",
-            data: { "page": page },
+            data: { "page": page ,"time":time,"category":category},
             success: function (data) {
                 console.log(data);
                 var str="";
@@ -32,7 +35,7 @@ function LoadArticles(){
                 }
                 $(".main").append(str);
                 page++;
-                if(data.length=10){
+                if(data.length==10){
                     lock=false;
                 }
             },
@@ -43,10 +46,29 @@ function LoadArticles(){
 
     }
 }
-
 function Load(){
     LoadArticles();
 }
+
+function LoadByCategory(data){
+    page=0;
+    category=data;
+    time="";
+    lock=false;
+    $(".main").html("");
+    Load();
+}
+
+function LoadByTime(data){
+    page=0;
+    time=data;
+    category="";
+    lock=false;
+    $(".main").html("");
+    Load();
+}
+
+
 
 
 $(document).ready(function(){
@@ -62,6 +84,9 @@ $(document).ready(function(){
         $(this).children(".zh").hide();
     });
 
+    page=0;
+    time="";
+    category="";
     Load();
 
     $(window).scroll(

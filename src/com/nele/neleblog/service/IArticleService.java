@@ -16,7 +16,7 @@ public interface IArticleService {
 
     void update(Article article);
 
-    List<Article> getArticlesByPage(int page);
+    List<Article> getArticlesByPage(int page,String time,String category);
 
     Article getArticleById(String id);
 }

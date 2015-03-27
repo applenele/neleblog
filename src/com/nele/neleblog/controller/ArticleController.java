@@ -52,9 +52,9 @@ public class ArticleController {
 
     @RequestMapping("/getArticles")
     @ResponseBody
-    public String getArticles(@RequestParam int page) {
+    public String getArticles(@RequestParam int page,@RequestParam String time,@RequestParam String category) {
         List<Article> articles = new ArrayList<Article>();
-        articles = articleService.getArticlesByPage(page);
+        articles = articleService.getArticlesByPage(page,time,category);
         for (Article article : articles) {
             article.setContent(StringHelper.getSomeConent(article.getContent()));
         }
