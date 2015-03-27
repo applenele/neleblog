@@ -73,16 +73,6 @@ function LoadByTime(data){
 
 $(document).ready(function(){
 
-    /***
-     * 导航
-     */
-    $(".nav .nav_list li a").mouseover(function(){
-        $(this).children(".zh").slideDown("fast");
-    })
-
-    $(".nav .nav_list li a").mouseout(function(){
-        $(this).children(".zh").hide();
-    });
 
     page=0;
     time="";

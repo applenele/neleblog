@@ -143,8 +143,15 @@ h2 {
 .reply_list .reply{
     margin-top: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    padding: 20px;
 }
 
+.reply_list .reply .reply_content{
+    margin-top: 10px;
+}
+.reply_list .reply .reply_time{
+    margin-top: 10px;
+}
 
 
 

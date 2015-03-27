@@ -18,17 +18,18 @@
     <script src="<%=path%>/scripts/moment.js"></script>
     <script src="<%=path%>/scripts/side.js"></script>
     <script src="<%=path%>/scripts/reply.js"></script>
+    <script src="<%=path%>/scripts/top.js"></script>
     <link rel="stylesheet" href="<%=path%>/styles/index.css"/>
 </head>
 <body>
 <div class="top">
     <div class="nav">
         <ul class="nav_list">
-            <li><a href="/"><span>Daily</span><br/><span class="zh">生活</span></a></li>
-            <li><a href="/"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
-            <li><a href="/"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
-            <li><a href="/"><span>Message</span><br/><span class="zh">留言板</span></a></li>
-            <li><a href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
+            <li><a class="top_item" href="javascript:LoadByCategory('Daily')"><span>Daily</span><br/><span class="zh">生活</span></a></li>
+            <li><a class="top_item" href="javascript:LoadByCategory('FrontEnd')"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
+            <li><a class="top_item" href="javascript:LoadByCategory('BackEnd')"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
+            <li><a class="top_item" href="/"><span>Message</span><br/><span class="zh">留言板</span></a></li>
+            <li><a class="top_item" href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
         </ul>
     </div>
 </div>
