@@ -10,9 +10,12 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import static java.util.Comparator.comparing;
 import static org.springframework.data.mongodb.core.query.Query.query;
 
 /**
@@ -55,7 +58,10 @@ public class ArticleService implements IArticleService {
     public List<Article> getArticlesByPage(int page, String time, String category) {
 
         List<Article> articles = new ArrayList<Article>();
-        articles = getAll();
+        articles=getAll();
+        Function<Article, String> byTime = a->a.getPtime();
+        //articles = articles.stream().sorted(comparing(byTime).reversed()).collect(Collectors.toList());
+        articles = articles.stream().sorted(comparing(byTime).reversed()).collect(Collectors.toList());
         if (!time.equals(null) && !"".equals(time)) {
             String year = time.substring(0, 4);
             String month = time.substring(5, 6);
