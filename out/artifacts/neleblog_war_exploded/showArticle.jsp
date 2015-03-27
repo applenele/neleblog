@@ -60,8 +60,9 @@
          <div class="reply_list">
              <c:forEach var="item" items="${article.replies}">
                <div class="reply">
-                   <div class="reply_nickname">${item.username}</div>
+                   <div class="reply_nickname"><span>${item.username}</span></div>
                    <div class="reply_content">${item.content}</div>
+                   <div class="reply_time">${item.ptime}</div>
                </div>
              </c:forEach>
          </div>

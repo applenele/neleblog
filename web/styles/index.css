@@ -137,10 +137,13 @@ h2 {
 }
 
 .reply_list{
-   margin-top: 50px;
+   margin-top: 20px;
 }
 
-
+.reply_list .reply{
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
 
 
 

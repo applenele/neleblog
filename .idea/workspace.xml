@@ -2,300 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a361128b-528c-4dc5-833e-f6998dadc29a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/link/images/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/link/images/hidpi/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/hidpi/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/magicline/images/icon-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/magicline/images/hidpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/hidpi/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/hidpi/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/assets/inlineall/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/image/images/noimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/images/hidpi/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/assets/sample.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/scayt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/wsc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/controller/ReplyController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/api.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/appendto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/datafiltering.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/dialog/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/divreplace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/enterkey/enterkey.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/wysiwygarea/fullpage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/inlineall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/inlinebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/inlinetextarea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/jquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/adapters/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/assets/uilanguages/languages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/magicline/magicline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/dialog/assets/my_dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/htmlwriter/outputhtml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/assets/posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/skins/moono/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/readonly.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/replacebyclass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/replacebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/reply.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/sample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/sample_posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/styles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/tabindex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/plugins/toolbar/toolbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/uicolor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/uilanguages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/samples/xhtmlstyle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/WEB-INF/classes/com/nele/neleblog/service/impl/ArticleService.class" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/WEB-INF/classes/com/nele/neleblog/service/impl/ArticleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/neleblog/com/nele/neleblog/service/impl/ArticleService.class" afterPath="$PROJECT_DIR$/out/production/neleblog/com/nele/neleblog/service/impl/ArticleService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nele/neleblog/service/IArticleService.java" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/service/IArticleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nele/neleblog/model/Reply.java" afterPath="$PROJECT_DIR$/src/com/nele/neleblog/model/Reply.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/addArticel.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/addArticel.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/addArticel.jsp" afterPath="$PROJECT_DIR$/web/addArticel.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/styles/index.css" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/styles/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/styles/index.css" afterPath="$PROJECT_DIR$/web/styles/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/index.js" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripts/index.js" afterPath="$PROJECT_DIR$/web/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/showArticle.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/showArticle.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripts/reply.js" afterPath="$PROJECT_DIR$/web/scripts/reply.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/showArticle.jsp" afterPath="$PROJECT_DIR$/web/showArticle.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nelebolg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -321,70 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/styles/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="2527">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1836#1845#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="2527">
-              <caret line="123" column="48" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2202#2211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addArticel.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/addArticel.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.142857" vertical-offset="638" max-vertical-offset="1501">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showArticle.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/showArticle.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39446366" vertical-offset="893" max-vertical-offset="1919">
-              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/model/Article.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="1558">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-              <folding>
-                <element signature="e#1496#1497#0" expanded="true" />
-                <element signature="e#1524#1525#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IArticleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/service/IArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="743" max-vertical-offset="2983">
+              <caret line="144" column="43" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -394,39 +45,53 @@
         <entry file="file://$PROJECT_DIR$/web/scripts/reply.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReplyController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/controller/ReplyController.java">
+      <file leaf-file-name="showArticle.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/showArticle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="760">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state vertical-scroll-proportion="-9.5" vertical-offset="893" max-vertical-offset="1938">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68646866" vertical-offset="1142" max-vertical-offset="2641">
+              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2014#2023#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reply.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/model/Reply.java">
+      <file leaf-file-name="ArticleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1273">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1750" max-vertical-offset="2527">
+              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2202#2211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/controller/TestController.java">
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6106" max-vertical-offset="20767">
+              <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -463,14 +128,14 @@
         <option value="$PROJECT_DIR$/web/scripts/index.js" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/addArticel.jsp" />
-        <option value="$PROJECT_DIR$/web/styles/index.css" />
-        <option value="$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/com/nele/neleblog/service/IArticleService.java" />
-        <option value="$PROJECT_DIR$/web/scripts/reply.js" />
         <option value="$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/com/nele/neleblog/model/Reply.java" />
         <option value="$PROJECT_DIR$/src/com/nele/neleblog/controller/ReplyController.java" />
         <option value="$PROJECT_DIR$/web/showArticle.jsp" />
+        <option value="$PROJECT_DIR$/web/styles/index.css" />
+        <option value="$PROJECT_DIR$/web/scripts/reply.js" />
+        <option value="$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java" />
       </list>
     </option>
   </component>
@@ -1174,12 +839,12 @@
       <workItem from="1427327727155" duration="3556000" />
       <workItem from="1427338478147" duration="6543000" />
       <workItem from="1427376209338" duration="3729000" />
-      <workItem from="1427430763532" duration="12430000" />
+      <workItem from="1427430763532" duration="13150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84310000" />
+    <option name="totallyTimeSpent" value="85030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1437,29 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14259" max-vertical-offset="20767">
-          <caret line="806" column="34" selection-start-line="806" selection-start-column="34" selection-end-line="806" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#51408#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#44628#44629#0" expanded="false" />
-            <element signature="e#44684#44685#0" expanded="false" />
-            <element signature="e#44888#44889#0" expanded="false" />
-            <element signature="e#44974#44975#0" expanded="false" />
-            <element signature="e#45237#45238#0" expanded="false" />
-            <element signature="e#45323#45324#0" expanded="false" />
-            <element signature="e#45701#45702#0" expanded="false" />
-            <element signature="e#45745#45746#0" expanded="false" />
-            <element signature="e#46882#46883#0" expanded="false" />
-            <element signature="e#46925#46926#0" expanded="false" />
-            <element signature="e#46978#46979#0" expanded="false" />
-            <element signature="e#47060#47061#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-data-mongodb-1.6.2.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.12" vertical-offset="27891" max-vertical-offset="28842">
@@ -1591,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2320" max-vertical-offset="2926">
-          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.392857" vertical-offset="733" max-vertical-offset="1311">
@@ -1620,17 +1254,6 @@
         <state vertical-scroll-proportion="5.142857" vertical-offset="638" max-vertical-offset="1501">
           <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="2527">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1836#1845#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1679,10 +1302,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/showArticle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5" vertical-offset="893" max-vertical-offset="1938">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="743" max-vertical-offset="2983">
+          <caret line="144" column="43" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/reply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6106" max-vertical-offset="20767">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/service/impl/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="2527">
-          <caret line="123" column="48" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1807" max-vertical-offset="2527">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2202#2211#0" expanded="true" />
@@ -1690,19 +1345,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/reply.js">
+    <entry file="file://$PROJECT_DIR$/src/com/nele/neleblog/controller/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/showArticle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39446366" vertical-offset="893" max-vertical-offset="1919">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-          <folding />
+        <state vertical-scroll-proportion="0.68646866" vertical-offset="1142" max-vertical-offset="2641">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2014#2023#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

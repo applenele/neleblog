@@ -8,7 +8,7 @@ $(document).ready(function(){
         var nickname=$("#nickname").val();
         var article_id=$("#article_id").val();
         $.post("/reply/add",{"nickname":nickname,"content":content,"articleId":article_id},function(data){
-            alert(data);
+            window.location.reload();
         });
     })
 });

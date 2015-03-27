@@ -6,6 +6,8 @@ import com.nele.neleblog.model.Reply;
 import com.nele.neleblog.model.Tag;
 import com.nele.neleblog.service.impl.ArticleService;
 import com.nele.neleblog.util.StringHelper;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +17,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import java.time.LocalDateTime;
 import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 /**
  * Created by apple on 15/3/22.
@@ -68,6 +72,8 @@ public class ArticleController {
     public String show(@RequestParam String id,Model model) {
         Article article = new Article();
         article = articleService.getArticleById(id);
+        Function<Reply, String> byTime = r->r.getPtime();
+        article.setReplies(article.getReplies().stream().sorted(Comparator.comparing(byTime).reversed()).collect(Collectors.toList()));
         model.addAttribute("article",article);
         return "showArticle";
     }
