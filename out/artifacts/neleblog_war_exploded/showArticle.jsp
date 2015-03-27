@@ -28,7 +28,7 @@
             <li><a class="top_item" href="javascript:LoadByCategory('Daily')"><span>Daily</span><br/><span class="zh">生活</span></a></li>
             <li><a class="top_item" href="javascript:LoadByCategory('FrontEnd')"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
             <li><a class="top_item" href="javascript:LoadByCategory('BackEnd')"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
-            <li><a class="top_item" href="/"><span>Message</span><br/><span class="zh">留言板</span></a></li>
+            <li><a class="top_item" href="<%=path%>/message.jsp"><span>Message</span><br/><span class="zh">留言板</span></a></li>
             <li><a class="top_item" href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
         </ul>
     </div>

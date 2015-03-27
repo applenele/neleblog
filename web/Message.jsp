@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-   String path=this.getServletConfig().getServletContext().getContextPath();
+    String path=this.getServletConfig().getServletContext().getContextPath();
 %>
 <html>
 <head>
@@ -17,7 +17,7 @@
     <script src="<%=path%>/scripts/ckeditor/ckeditor.js"></script>
     <script src="<%=path%>/scripts/moment.js"></script>
     <script src="<%=path%>/scripts/side.js"></script>
-    <script src="<%=path%>/scripts/reply.js"></script>
+    <script src="<%=path%>/scripts/message.js"></script>
     <script src="<%=path%>/scripts/top.js"></script>
     <link rel="stylesheet" href="<%=path%>/styles/index.css"/>
 </head>
@@ -36,37 +36,17 @@
 <div class="banner">
 </div>
 <div class="container">
-    <h2 class="title_tj"><p>文章展示</p></h2>
     <div class="main">
-        <h3>${article.title}</h3>
-        <input type="hidden" value="${article.id}" id="article_id" />
-        <div class="article_content">
-            ${article.content}
-        </div>
-        <div class="article_footer">
-            <div class="ptime">Publish On ${article.ptime}</div>
-            <div class="article_tags">
-               <c:forEach var="item" items="${article.tags}">
-                  <span class="article_tag">${item.content}</span>
-               </c:forEach>
-            </div>
-        </div>
 
-        <div class="reply_form">
+        <div class="message_form">
             <p>昵称：<input type="text" id="nickname" /></p>
             <p>内容<textarea name="content"></textarea></p>
-            <p><input type="button" id="btnReply" value="回复"></p>
+            <p><input type="button" id="btnAddMessage" value="留言"></p>
         </div>
 
-         <div class="reply_list">
-             <c:forEach var="item" items="${article.replies}">
-               <div class="reply">
-                   <div class="reply_nickname"><span>${item.username}</span></div>
-                   <div class="reply_content">${item.content}</div>
-                   <div class="reply_time">${item.ptime}</div>
-               </div>
-             </c:forEach>
-         </div>
+        <div class="message_list">
+
+        </div>
     </div>
     <div class="right">
         <div class="side">
