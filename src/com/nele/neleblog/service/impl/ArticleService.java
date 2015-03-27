@@ -1,6 +1,7 @@
 package com.nele.neleblog.service.impl;
 
 import com.nele.neleblog.model.Article;
+import com.nele.neleblog.model.Reply;
 import com.nele.neleblog.service.IArticleService;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -55,6 +56,7 @@ public class ArticleService implements IArticleService {
         mongoTemplate.findAndModify(query, update, Article.class, "articles");
     }
 
+
     /**
      * 第二种方式按叶查询  这种方式比较正规
      * @author nele
@@ -71,14 +73,14 @@ public class ArticleService implements IArticleService {
             String year = time.substring(0, 4);
             String month = time.substring(5, 6);
             String stime = year + "-0" + month;
-            criteria = Criteria.where("ptime").regex(".*?"+stime+".*");
+            criteria = Criteria.where("ptime").regex(".*"+stime+".*");
         }
         if(!category.equals(null) && ! "".equals(category)){
            criteria=criteria.where("category").is(category);
         }
         Query query=new Query(criteria);
-        query.skip(3*page);
-        query.limit(3);
+        query.skip(6*page);
+        query.limit(6);
         query.with(new Sort(Sort.Direction.DESC,"ptime"));  //按时间逆序
         articles = mongoTemplate.find(query,Article.class);
         return articles;
@@ -110,5 +112,16 @@ public class ArticleService implements IArticleService {
         Article article = new Article();
         article = mongoTemplate.findById(id, Article.class);
         return article;
+    }
+
+
+    @Override
+    public void addReply(Reply reply, String id) {
+        Query query =new Query(Criteria.where("id").is(id));
+        Article article=getArticleById(id);
+        List<Reply> replies =article.getReplies();
+        replies.add(reply);
+        Update update= new Update().set("replies",replies);
+        mongoTemplate.findAndModify(query,update,Article.class);
     }
 }

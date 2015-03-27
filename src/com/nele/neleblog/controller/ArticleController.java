@@ -120,10 +120,8 @@ public class ArticleController {
                 mcategory.put(category,1);
             }
         }
-
         Gson gson=new Gson();
         String str=gson.toJson(mcategory);
-
         return str;
     }
 }

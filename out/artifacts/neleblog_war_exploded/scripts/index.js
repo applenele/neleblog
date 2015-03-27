@@ -35,7 +35,7 @@ function LoadArticles(){
                 }
                 $(".main").append(str);
                 page++;
-                if(data.length==3){
+                if(data.length==6){
                     lock=false;
                 }
             },

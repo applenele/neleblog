@@ -20,9 +20,9 @@
 <div class="top">
     <div class="nav">
         <ul class="nav_list">
-            <li><a href="/"><span>Daily</span><br/><span class="zh">生活</span></a></li>
-            <li><a href="/"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
-            <li><a href="/"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
+            <li><a href="/"><span><a href="javascript:LoadByCategory('Daily')">Daily</a></span><br/><span class="zh">生活</span></a></li>
+            <li><a href="/"><span><a href="javascript:LoadByCategory('FrontEnd')">FrontEnd</a></span><br/><span class="zh">前端</span></a></li>
+            <li><a href="/"><span><a href="javascript:LoadByCategory('BackEnd')">BackEnd</a></span><br/><span class="zh">后端</span></a></li>
             <li><a href="/"><span>Message</span><br/><span class="zh">留言板</span></a></li>
             <li><a href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
         </ul>

@@ -1,6 +1,7 @@
 package com.nele.neleblog.service;
 
 import com.nele.neleblog.model.Article;
+import com.nele.neleblog.model.Reply;
 
 import java.util.List;
 
@@ -19,4 +20,6 @@ public interface IArticleService {
     List<Article> getArticlesByPage(int page,String time,String category);
 
     Article getArticleById(String id);
+
+    void addReply(Reply reply,String id);
 }

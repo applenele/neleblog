@@ -14,8 +14,10 @@
 <head>
     <title>neleblog - index</title>
     <script src="<%=path%>/scripts/jquery-1.11.2.min.js"></script>
+    <script src="<%=path%>/scripts/ckeditor/ckeditor.js"></script>
     <script src="<%=path%>/scripts/moment.js"></script>
     <script src="<%=path%>/scripts/side.js"></script>
+    <script src="<%=path%>/scripts/reply.js"></script>
     <link rel="stylesheet" href="<%=path%>/styles/index.css"/>
 </head>
 <body>
@@ -33,9 +35,10 @@
 <div class="banner">
 </div>
 <div class="container">
-    <h2 class="title_tj"><p>文章推荐</p></h2>
+    <h2 class="title_tj"><p>文章展示</p></h2>
     <div class="main">
         <h3>${article.title}</h3>
+        <input type="hidden" value="${article.id}" id="article_id" />
         <div class="article_content">
             ${article.content}
         </div>
@@ -47,11 +50,25 @@
                </c:forEach>
             </div>
         </div>
+
+        <div class="reply_form">
+            <p>昵称：<input type="text" id="nickname" /></p>
+            <p>内容<textarea name="content"></textarea></p>
+            <p><input type="button" id="btnReply" value="回复"></p>
+        </div>
+
+         <div class="reply_list">
+             <c:forEach var="item" items="${article.replies}">
+               <div class="reply">
+                   <div class="reply_nickname">${item.username}</div>
+                   <div class="reply_content">${item.content}</div>
+               </div>
+             </c:forEach>
+         </div>
     </div>
     <div class="right">
         <div class="side">
             <h3>CATALOGS</h3>
-
             <div class="catalogs_list">
 
             </div>
@@ -71,5 +88,8 @@
     <div>Copyright © 2015 nele
     </div>
 </div>
+<script>
+    CKEDITOR.replace('content',{toolbar:'Basic',width:'100%',height:'60px'});
+</script>
 </body>
 </html>

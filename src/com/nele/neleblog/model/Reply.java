@@ -15,7 +15,7 @@ public class Reply {
 
     private String content;
 
-    private LocalDateTime ptime;
+    private String ptime;
 
     private String email;
 
@@ -43,11 +43,11 @@ public class Reply {
         this.id = id;
     }
 
-    public LocalDateTime getPtime() {
+    public String getPtime() {
         return ptime;
     }
 
-    public void setPtime(LocalDateTime ptime) {
+    public void setPtime(String ptime) {
         this.ptime = ptime;
     }
 
@@ -62,7 +62,7 @@ public class Reply {
     public Reply() {
     }
 
-    public Reply(String username, String content,  LocalDateTime ptime, String email) {
+    public Reply(String id,String username, String content,  String ptime, String email) {
         this.content = content;
         this.email = email;
         this.id = id;
