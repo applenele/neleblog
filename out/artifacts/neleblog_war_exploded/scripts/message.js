@@ -44,6 +44,7 @@ function Load(){
     LoadMessages();
 }
 
+
 $(document).ready(function () {
 
     Load();
@@ -65,6 +66,4 @@ $(document).ready(function () {
             window.location.reload();
         })
     });
-
-
 });

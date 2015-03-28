@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a361128b-528c-4dc5-833e-f6998dadc29a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/Message.jsp" afterPath="$PROJECT_DIR$/web/message.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/index.js" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/message.js" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/scripts/message.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripts/message.js" afterPath="$PROJECT_DIR$/web/scripts/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/message.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/message.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/showArticle.jsp" afterPath="$PROJECT_DIR$/out/artifacts/neleblog_war_exploded/showArticle.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/showArticle.jsp" afterPath="$PROJECT_DIR$/web/showArticle.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nelebolg.iws" />
@@ -40,8 +33,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/scripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1843">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1843">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -70,18 +63,18 @@
       <file leaf-file-name="message.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/scripts/message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1406">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showArticle.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showArticle.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/showArticle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19723183" vertical-offset="0" max-vertical-offset="1824">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state vertical-scroll-proportion="4.75" vertical-offset="361" max-vertical-offset="1824">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -99,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0714285" vertical-offset="619" max-vertical-offset="1387">
-              <caret line="31" column="13" selection-start-line="25" selection-start-column="7" selection-end-line="31" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.5069204" vertical-offset="239" max-vertical-offset="1387">
+              <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -134,11 +127,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="893">
               <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,12 +175,12 @@
         <option value="$PROJECT_DIR$/src/com/nele/neleblog/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/src/com/nele/neleblog/service/impl/MessageService.java" />
         <option value="$PROJECT_DIR$/web/styles/index.css" />
-        <option value="$PROJECT_DIR$/web/scripts/message.js" />
         <option value="$PROJECT_DIR$/web/scripts/top.js" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/scripts/index.js" />
         <option value="$PROJECT_DIR$/web/message.jsp" />
         <option value="$PROJECT_DIR$/web/showArticle.jsp" />
+        <option value="$PROJECT_DIR$/web/scripts/message.js" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -896,12 +885,12 @@
       <workItem from="1427338478147" duration="6543000" />
       <workItem from="1427376209338" duration="3729000" />
       <workItem from="1427430763532" duration="18536000" />
-      <workItem from="1427518133572" duration="1928000" />
+      <workItem from="1427518133572" duration="2115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92344000" />
+    <option name="totallyTimeSpent" value="92531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -985,11 +974,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="893">
           <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,8 +1252,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1218" max-vertical-offset="2527">
           <caret line="83" column="30" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2202#2211#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2202#2211#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,11 +1272,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
           <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,14 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="3363">
           <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1329,26 +1302,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0714285" vertical-offset="619" max-vertical-offset="1387">
-          <caret line="31" column="13" selection-start-line="25" selection-start-column="7" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/scripts/side.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="912">
           <caret line="34" column="61" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1843">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1363,8 +1320,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/showArticle.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19723183" vertical-offset="0" max-vertical-offset="1824">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state vertical-scroll-proportion="4.75" vertical-offset="361" max-vertical-offset="1824">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1843">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1406">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5069204" vertical-offset="239" max-vertical-offset="1387">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
           <folding />
         </state>
       </provider>
