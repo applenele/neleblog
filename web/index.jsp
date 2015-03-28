@@ -60,7 +60,7 @@
     <div style="clear:both"></div>
 </div>
 <div class="footer">
-    <div>Copyright © 2015 nele
+    <div>Copyright © 2015 nele  <a href="login.jsp">login</a>
     </div>
 </div>
 </body>

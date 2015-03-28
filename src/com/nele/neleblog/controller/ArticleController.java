@@ -15,7 +15,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -53,7 +55,7 @@ public class ArticleController {
         article.setTitle(title);
         article.setContent(content);
         article.setCategory(category);
-        article.setPtime(LocalDateTime.now().toString());
+        article.setPtime(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")).toString());
         article.setReplies(new ArrayList<Reply>());
         article.setTags(tagList);
         articleService.add(article);
@@ -80,7 +82,9 @@ public class ArticleController {
         Article article = new Article();
         article = articleService.getArticleById(id);
         Function<Reply, String> byTime = r->r.getPtime();
+        SimpleDateFormat format =new SimpleDateFormat("YYYY-MM-DD HH:mm:ss");
         article.setReplies(article.getReplies().stream().sorted(Comparator.comparing(byTime).reversed()).collect(Collectors.toList()));
+        //article.getPtime(new LocalDateTime(article.getPtime()).format("YYYY-MM-DD HH:mm:ss"));
         model.addAttribute("article",article);
         return "showArticle";
     }
@@ -97,15 +101,13 @@ public class ArticleController {
             stime.add(article.getPtime());
         }
         for (String time :stime){
-            LocalDateTime local=LocalDateTime.parse(time);
-            int year =local.getYear();
-            int month=local.getMonthValue();
-            String data= year+"年" +month+"月";
-            if(mtime.containsKey(data)){
-                Integer val= mtime.get(data);
-                mtime.put(data,(int)val+1);
+
+            String date =time.substring(0,7);
+            if(mtime.containsKey(date)){
+                Integer val= mtime.get(date);
+                mtime.put(date,(int)val+1);
             }else{
-                mtime.put(data,1);
+                mtime.put(date,1);
             }
         }
         Gson gson=new Gson();

@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $("#btnAddArticle").click(function () {
         var title=$("#title").val();
-        var content=$("#content").val();
+        var content = CKEDITOR.instances.content.getData();
         var category=$("#category").val();
         var tags=$("#tags").val();
         if(title==""){
