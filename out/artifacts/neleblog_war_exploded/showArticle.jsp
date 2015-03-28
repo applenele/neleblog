@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-   String path=this.getServletConfig().getServletContext().getContextPath();
+    String path = this.getServletConfig().getServletContext().getContextPath();
 %>
 <html>
 <head>
@@ -25,11 +25,17 @@
 <div class="top">
     <div class="nav">
         <ul class="nav_list">
-            <li><a class="top_item" href="javascript:LoadByCategory('Daily')"><span>Daily</span><br/><span class="zh">生活</span></a></li>
-            <li><a class="top_item" href="javascript:LoadByCategory('FrontEnd')"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
-            <li><a class="top_item" href="javascript:LoadByCategory('BackEnd')"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
-            <li><a class="top_item" href="<%=path%>/message.jsp"><span>Message</span><br/><span class="zh">留言板</span></a></li>
-            <li><a class="top_item" href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
+            <ul class="nav_list">
+                <!--
+                 <li><a class="top_item" href="javascript:LoadDailyArticles()"><span>Daily</span><br/><span class="zh">生活</span></a></li>
+                <li><a class="top_item" href="javascript:LoadFrontEndArticles()"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
+                <li><a class="top_item" href="javascript:LoadBackEndArticles()"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>l
+                <li><a class="top_item" href="<%=path%>/message.jsp"><span>Message</span><br/><span
+                        class="zh">留言板</span></a></li>
+            -->
+                <li><a class="top_item" href="/index.jsp">Home</a></li>
+                <li><a class="top_item" href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
+            </ul>
         </ul>
     </div>
 </div>
@@ -39,49 +45,36 @@
     <h2 class="title_tj"><p>文章展示</p></h2>
     <div class="main">
         <h3>${article.title}</h3>
-        <input type="hidden" value="${article.id}" id="article_id" />
+        <input type="hidden" value="${article.id}" id="article_id"/>
+
         <div class="article_content">
             ${article.content}
         </div>
         <div class="article_footer">
             <div class="ptime">Publish On ${article.ptime}</div>
             <div class="article_tags">
-               <c:forEach var="item" items="${article.tags}">
-                  <span class="article_tag">${item.content}</span>
-               </c:forEach>
+                <c:forEach var="item" items="${article.tags}">
+                    <span class="article_tag">${item.content}</span>
+                </c:forEach>
             </div>
         </div>
 
         <div class="reply_form">
-            <p>昵称：<input type="text" id="nickname" /></p>
+            <p>昵称：<input type="text" id="nickname"/></p>
+
             <p>内容<textarea name="content"></textarea></p>
+
             <p><input type="button" id="btnReply" value="回复"></p>
         </div>
 
-         <div class="reply_list">
-             <c:forEach var="item" items="${article.replies}">
-               <div class="reply">
-                   <div class="reply_nickname"><span>${item.username}</span></div>
-                   <div class="reply_content">${item.content}</div>
-                   <div class="reply_time">${item.ptime}</div>
-               </div>
-             </c:forEach>
-         </div>
-    </div>
-    <div class="right">
-        <div class="side">
-            <h3>CATALOGS</h3>
-            <div class="catalogs_list">
-
-            </div>
-        </div>
-
-        <div class="side">
-            <h3>CALENDAR</h3>
-
-            <div class="calendar_list">
-
-            </div>
+        <div class="reply_list">
+            <c:forEach var="item" items="${article.replies}">
+                <div class="reply">
+                    <div class="reply_nickname"><span>${item.username}</span></div>
+                    <div class="reply_content">${item.content}</div>
+                    <div class="reply_time">${item.ptime}</div>
+                </div>
+            </c:forEach>
         </div>
     </div>
     <div style="clear:both"></div>
@@ -91,7 +84,7 @@
     </div>
 </div>
 <script>
-    CKEDITOR.replace('content',{toolbar:'Basic',width:'100%',height:'60px'});
+    CKEDITOR.replace('content', {toolbar: 'Basic', width: '100%', height: '60px'});
 </script>
 </body>
 </html>

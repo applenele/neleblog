@@ -46,10 +46,7 @@ function Load(){
 
 $(document).ready(function () {
 
-
-
     Load();
-
     $(window).scroll(
         function() {
             totalheight = parseFloat($(window).height())
@@ -58,9 +55,6 @@ $(document).ready(function () {
                 Load();
             }
         });
-
-
-
     /**
      * add message
      */
@@ -71,4 +65,6 @@ $(document).ready(function () {
             window.location.reload();
         })
     });
+
+
 });

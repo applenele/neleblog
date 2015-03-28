@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-    String path=this.getServletConfig().getServletContext().getContextPath();
+    String path = this.getServletConfig().getServletContext().getContextPath();
 %>
 <html>
 <head>
@@ -25,10 +25,14 @@
 <div class="top">
     <div class="nav">
         <ul class="nav_list">
-            <li><a class="top_item" href="javascript:LoadByCategory('Daily')"><span>Daily</span><br/><span class="zh">生活</span></a></li>
-            <li><a class="top_item" href="javascript:LoadByCategory('FrontEnd')"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
-            <li><a class="top_item" href="javascript:LoadByCategory('BackEnd')"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>
-            <li><a class="top_item" href="<%=path%>/message.jsp"><span>Message</span><br/><span class="zh">留言板</span></a></li>
+            <!--
+             <li><a class="top_item" href="javascript:LoadDailyArticles()"><span>Daily</span><br/><span class="zh">生活</span></a></li>
+            <li><a class="top_item" href="javascript:LoadFrontEndArticles()"><span>FrontEnd</span><br/><span class="zh">前端</span></a></li>
+            <li><a class="top_item" href="javascript:LoadBackEndArticles()"><span>BackEnd</span><br/><span class="zh">后端</span></a></li>l
+            <li><a class="top_item" href="<%=path%>/message.jsp"><span>Message</span><br/><span
+                    class="zh">留言板</span></a></li>
+            -->
+            <li><a class="top_item" href="/index.jsp">Home</a></li>
             <li><a class="top_item" href="/"><span>About</span><br/><span class="zh">关于</span></a></li>
         </ul>
     </div>
@@ -39,29 +43,15 @@
     <div class="main">
 
         <div class="message_form">
-            <p>昵称：<input type="text" id="nickname" /></p>
+            <p>昵称：<input type="text" id="nickname"/></p>
+
             <p>内容<textarea name="content"></textarea></p>
+
             <p><input type="button" id="btnAddMessage" value="留言"></p>
         </div>
 
         <div class="message_list">
 
-        </div>
-    </div>
-    <div class="right">
-        <div class="side">
-            <h3>CATALOGS</h3>
-            <div class="catalogs_list">
-
-            </div>
-        </div>
-
-        <div class="side">
-            <h3>CALENDAR</h3>
-
-            <div class="calendar_list">
-
-            </div>
         </div>
     </div>
     <div style="clear:both"></div>
@@ -71,7 +61,7 @@
     </div>
 </div>
 <script>
-    CKEDITOR.replace('content',{toolbar:'Basic',width:'100%',height:'60px'});
+    CKEDITOR.replace('content', {toolbar: 'Basic', width: '100%', height: '60px'});
 </script>
 </body>
 </html>
