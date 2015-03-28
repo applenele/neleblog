@@ -61,10 +61,8 @@
 
         <div class="reply_form">
             <p>昵称：<input type="text" id="nickname"/></p>
-
             <p>内容<textarea name="content"></textarea></p>
-
-            <p><input type="button" id="btnReply" value="回复"></p>
+            <p style="margin-top: 10px;"><input type="button" id="btnReply" value="回复" style="border:none;width: 50px;height: 30px;"></p>
         </div>
 
         <div class="reply_list">

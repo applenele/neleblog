@@ -50,8 +50,8 @@
         <div>
             标签（以,分割）：<input type="text" id="tags"/>
         </div>
-        <div>
-            <input type="button"  width="30px" height="50px" id="btnAddArticle" value="增加"/>
+        <div style="margin-top: 10px;">
+            <input type="button"  style="border:none;width: 50px;height: 30px;" id="btnAddArticle" value="增加"/>
         </div>
     </div>
     <div class="right">

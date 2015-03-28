@@ -33,7 +33,7 @@
         <div class="login-box">
             <div class="inline">用户:<input type="text" id="username" placeholder="用户名"/></div>
             <div class="inline">密码:<input type="password" id="password" placeholder="密码"/></div>
-            <input type="button" height="30px" value="登陆" id="btnLogin"/>
+            <div class="inline"><input type="button" height="30px" value="登陆" id="btnLogin"/></div>
         </div>
     </div>
     <div class="right">

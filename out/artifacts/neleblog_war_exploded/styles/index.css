@@ -131,7 +131,9 @@ h2 {
     margin: 10% 20%;
 }
 
-
+.login-box .inline{
+    margin: 10px 10px;
+}
 .reply_form{
     margin-top: 50px;
 }
@@ -152,7 +154,6 @@ h2 {
 .reply_list .reply .reply_time{
     margin-top: 10px;
 }
-
 
 
 .message_list .message{

@@ -47,7 +47,7 @@
 
             <p>内容<textarea name="content"></textarea></p>
 
-            <p><input type="button" id="btnAddMessage" value="留言"></p>
+            <p style="margin-top: 10px;"><input type="button" id="btnAddMessage" value="留言" style="border:none;width: 50px;height: 30px;"></p>
         </div>
 
         <div class="message_list">

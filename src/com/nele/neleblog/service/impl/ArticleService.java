@@ -70,10 +70,7 @@ public class ArticleService implements IArticleService {
         List<Article> articles = new ArrayList<Article>();
         Criteria criteria=new Criteria();
         if (!time.equals(null) && !"".equals(time)) {
-            String year = time.substring(0, 4);
-            String month = time.substring(5, 6);
-            String stime = year + "-0" + month;
-            criteria = Criteria.where("ptime").regex(".*"+stime+".*");
+            criteria = Criteria.where("ptime").regex(".*"+time+".*");
         }
         if(!category.equals(null) && ! "".equals(category)){
            criteria=criteria.where("category").is(category);
