@@ -53,7 +53,7 @@
 
        <c:if test="${user!=null}">
            <div class="side">
-               <div><a href="addArticel.jsp">发表帖子</a></div>
+               <div><a href="addArticle.jsp">发表帖子</a></div>
            </div>
        </c:if>
     </div>

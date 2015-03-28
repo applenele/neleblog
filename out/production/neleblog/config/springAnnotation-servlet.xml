@@ -34,5 +34,12 @@
         <property name="maxInMemorySize" value="40960" />
     </bean>
 
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/article/addArticle"/>
+            <bean class="com.nele.neleblog.interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 
 </beans>

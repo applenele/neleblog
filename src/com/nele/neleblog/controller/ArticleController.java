@@ -30,6 +30,13 @@ public class ArticleController {
     @Resource
     private ArticleService articleService;
 
+
+
+    @RequestMapping("/addArticle")
+    public String addArticle(){
+         return "addArticle";
+    }
+
     @RequestMapping("/add")
     @ResponseBody
     public String add(String title, String content, String category, String tags) {
